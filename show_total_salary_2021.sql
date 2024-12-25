@@ -1,3 +1,5 @@
+use huawei_test;
+
 SELECT SUM(
     CASE
         WHEN release_date IS NULL THEN 12
