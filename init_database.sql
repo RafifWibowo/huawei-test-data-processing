@@ -20,3 +20,5 @@ INSERT INTO employees (name, position, join_date, release_date, years_of_exp, sa
     ('Aaron', 'Engineer', '2021-08-16', '2022-08-16', 1, 80),
     ('Allen', 'Engineer', '2024-06-06', NULL, 4, 75),
     ('Peter', 'Team Leader', '2020-01-09', NULL, 3, 85);
+
+SELECT name, position, join_date, release_date, years_of_exp, salary FROM employees;
